@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:rowCount="4"
+    android:columnCount="2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:text="Hello"
+        android:textAllCaps="false"
+        android:id="@+id/konichiwa"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1" />
+    <Button
+        android:text="Thank you!"
+        android:textAllCaps="false"
+        android:id="@+id/arigato"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"/>
+    <Button
+        android:text="Excuse me"
+        android:textAllCaps="false"
+        android:id="@+id/sumimasen"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"/>
+    <Button
+        android:text="Please"
+        android:textAllCaps="false"
+        android:id="@+id/dozo"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"/>
+    <Button
+        android:text="Yes"
+        android:textAllCaps="false"
+        android:id="@+id/hai"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"/>
+    <Button
+        android:text="Cheers"
+        android:textAllCaps="false"
+        android:id="@+id/kampai"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"/>
+    <Button
+        android:text="Good bye"
+        android:textAllCaps="false"
+        android:id="@+id/sayonara"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"/>
+    <Button
+        android:text="That's good"
+        android:textAllCaps="false"
+        android:id="@+id/yokatta"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"/>
+
+
+</GridLayout>
